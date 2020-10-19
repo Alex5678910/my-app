@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.16009c09.chunk.css",
-    "main.js": "/my-app/static/js/main.6333b3cb.chunk.js",
-    "main.js.map": "/my-app/static/js/main.6333b3cb.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.58a6d01e.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.58a6d01e.js.map",
-    "static/js/2.1128c97d.chunk.js": "/my-app/static/js/2.1128c97d.chunk.js",
-    "static/js/2.1128c97d.chunk.js.map": "/my-app/static/js/2.1128c97d.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "precache-manifest.d62a11cc38a08c9b80da2a33632765de.js": "/my-app/precache-manifest.d62a11cc38a08c9b80da2a33632765de.js",
-    "service-worker.js": "/my-app/service-worker.js",
-    "static/css/main.16009c09.chunk.css.map": "/my-app/static/css/main.16009c09.chunk.css.map",
-    "static/js/2.1128c97d.chunk.js.LICENSE.txt": "/my-app/static/js/2.1128c97d.chunk.js.LICENSE.txt",
-    "static/media/Gilroy-ExtraBold.otf": "/my-app/static/media/Gilroy-ExtraBold.0f6e082f.otf",
-    "static/media/Gilroy-Light.otf": "/my-app/static/media/Gilroy-Light.c62aded7.otf",
-    "static/media/Container-one.css": "/my-app/static/media/picture01.4100536e.png",
-    "static/media/Container-three.css": "/my-app/static/media/picture02.f5e8d92a.png",
-    "static/media/Container-four.css": "/my-app/static/media/picture03.c9a1bda7.png",
-    "static/media/Container-six.css": "/my-app/static/media/picture04.89516e6f.png",
-    "static/media/Container-five.css": "/my-app/static/media/picture05.65cd01f6.png",
-    "static/media/Container-two.css": "/my-app/static/media/picture06.4989a2d1.png"
+    "main.css": "/static/css/main.95db743d.chunk.css",
+    "main.js": "/static/js/main.b11695b0.chunk.js",
+    "main.js.map": "/static/js/main.b11695b0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
+    "static/js/2.1128c97d.chunk.js": "/static/js/2.1128c97d.chunk.js",
+    "static/js/2.1128c97d.chunk.js.map": "/static/js/2.1128c97d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c6626b8f9a0582b786948ec5a6a287b8.js": "/precache-manifest.c6626b8f9a0582b786948ec5a6a287b8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.95db743d.chunk.css.map": "/static/css/main.95db743d.chunk.css.map",
+    "static/js/2.1128c97d.chunk.js.LICENSE.txt": "/static/js/2.1128c97d.chunk.js.LICENSE.txt",
+    "static/media/Gilroy-ExtraBold.otf": "/static/media/Gilroy-ExtraBold.0f6e082f.otf",
+    "static/media/Gilroy-Light.otf": "/static/media/Gilroy-Light.c62aded7.otf",
+    "static/media/Container-one.css": "/static/media/picture01.4100536e.png",
+    "static/media/Container-three.css": "/static/media/picture02.f5e8d92a.png",
+    "static/media/Container-four.css": "/static/media/picture03.c9a1bda7.png",
+    "static/media/Container-six.css": "/static/media/picture04.89516e6f.png",
+    "static/media/Container-five.css": "/static/media/picture05.65cd01f6.png",
+    "static/media/Container-two.css": "/static/media/picture06.4989a2d1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.58a6d01e.js",
+    "static/js/runtime-main.83c3e0c4.js",
     "static/js/2.1128c97d.chunk.js",
-    "static/css/main.16009c09.chunk.css",
-    "static/js/main.6333b3cb.chunk.js"
+    "static/css/main.95db743d.chunk.css",
+    "static/js/main.b11695b0.chunk.js"
   ]
 }
