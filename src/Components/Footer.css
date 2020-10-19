@@ -1,0 +1,23 @@
+.Footer {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.175729px;
+    text-transform: uppercase;
+    color: #505050;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+@media (max-width: 1366px) {
+    .Footer {
+        font-size: 11px;
+        line-height: 4;
+        padding-left: 50px;
+        padding-top: 20px
+    }
+}

@@ -1,0 +1,109 @@
+.Sidebar {
+    display: flex;
+    align-items: center;
+}
+
+.Sidebar ul li a {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    letter-spacing: 0.567739px;
+    color: #505050;
+    margin-top: 32px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: all .3s;
+}
+
+.Sidebar ul li a.NavLink-one:hover,
+.Sidebar ul li a.NavLink-one:focus {
+    width: 45%;
+}
+
+.Sidebar ul li a.NavLink-two:hover,
+.Sidebar ul li a.NavLink-two:focus {
+    width: 62%;
+}
+
+.Sidebar ul li a.NavLink-three:hover,
+.Sidebar ul li a.NavLink-three:focus {
+    width: 55%;
+}
+
+.Sidebar ul li a.NavLink-four:hover,
+.Sidebar ul li a.NavLink-four:focus {
+    width: 40%;
+}
+
+.Sidebar ul li a.NavLink-five:hover,
+.Sidebar ul li a.NavLink-five:focus {
+    width: 63%;
+}
+
+.Sidebar ul li a.NavLink-six:hover,
+.Sidebar ul li a.NavLink-six:focus {
+    width: 95%;
+}
+
+.Sidebar ul li a:hover {
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 2px solid #f17e02;
+}
+@media (max-width: 1366px) {
+    .Sidebar ul li a {
+        font-size: 12px;
+        line-height: 2px;
+        display: flex;
+        margin-left: 55px;
+        margin-top: 29px;
+    }
+    .Sidebar ul li a:hover {
+        font-size: 13px;
+    }
+    .Sidebar ul li a.NavLink-one:hover,
+    .Sidebar ul li a.NavLink-one:focus {
+        width: 40%;
+        padding-bottom: 6px;
+    }
+
+    .Sidebar ul li a.NavLink-two:hover,
+    .Sidebar ul li a.NavLink-two:focus {
+        width: 57%;
+        padding-bottom: 6px;
+    }
+
+    .Sidebar ul li a.NavLink-three:hover,
+    .Sidebar ul li a.NavLink-three:focus {
+        width: 50%;
+        padding-bottom: 6px;
+    }
+
+    .Sidebar ul li a.NavLink-four:hover,
+    .Sidebar ul li a.NavLink-four:focus {
+        width: 35%;
+        padding-bottom: 6px;
+    }
+
+    .Sidebar ul li a.NavLink-five:hover,
+    .Sidebar ul li a.NavLink-five:focus {
+        width: 58%;
+        padding-bottom: 6px;
+    }
+
+    .Sidebar ul li a.NavLink-six:hover,
+    .Sidebar ul li a.NavLink-six:focus {
+        width: 80%;
+        padding-bottom: 6px;
+    }
+}
+
+
+
+
+

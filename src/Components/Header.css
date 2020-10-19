@@ -1,0 +1,117 @@
+.Square-left {
+    width: 70px;
+    height: 70px;
+    background-color: #262525;
+    z-index: 10;
+}
+
+.Main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px 0 25px;
+}
+
+ul.Main-text {
+    display: flex;
+}
+
+.Square-right {
+    width: 70px;
+    height: 70px;
+    background-color: #262525;
+    z-index: 10;
+}
+
+.Square-right .Svg {
+    margin: 29%;
+}
+
+.Label-left, .Label-right, .Main {
+    display: flex;
+}
+
+.Text-left a, .Text-right a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.290629px;
+    text-transform: uppercase;
+    margin-left: 23px;
+    margin-right: 23px;
+    text-decoration: none;
+    color: #262525;
+    font-family: 'Gilroy', sans-serif;
+    border: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+.Main ul.Main-text li .NavLink-header{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 29px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #262525;
+    margin-left: 56px;
+    position: relative;
+}
+
+.Main ul.Main-text li .NavLink-header:after {
+    display: block;
+    position: absolute;
+    right: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0; /*задаём длинну линии до наведения курсора*/
+    height: 3px; /*задаём ширину линии*/
+    background-color: #f17e02; /*задаём цвет линии*/
+    content: "";
+    transition: width 0.3s ease-out; /*задаём время анимации*/
+    bottom: -4px;
+}
+
+.Main ul.Main-text li .NavLink-header:hover:after,
+.Main ul.Main-text li .NavLink-header:focus:after {
+    width: 100%;
+}
+
+@media (max-width: 1366px) {
+ .Text-left a, .Text-right a {
+     font-size: 14px;
+     margin-left: 14px;
+     margin-right: 14px;
+ }
+    .Square-left {
+        width: 55px;
+        height: 55px;
+    }
+    .Square-right {
+        width: 55px;
+        height: 55px;
+    }
+    .Square-right .Svg {
+        margin: 18px 10px 10px 18px;
+        width: 21px;
+        height: 21px;
+    }
+    .Main {
+        padding: 16px 55px 0 55px;
+    }
+    .Main ul.Main-text li .NavLink-header {
+        font-size: 10px;
+        margin-left: 47px;
+    }
+}
+
+
+
+
+
+
+
+
+
